@@ -1,0 +1,95 @@
+#projects {
+  scroll-margin-top: 100px;
+  margin: 100px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectButton { 
+  background-color: #dc8787 !important; 
+  transition: all 0.3s ease;
+}
+
+.projectsContainer {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.projectCard {
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.projectCard:hover {
+  transform: translateY(-10px);
+}
+
+.projectImage {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.footer {
+  /* margin-top: 50px; */
+  padding: 30px 10px;
+  background: rgb(169, 144, 185);
+  backdrop-filter: blur(10px);
+  color: black;
+  text-align: center;
+}
+
+.footerContent { 
+  max-width: 700px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 0;
+}
+
+.footer h3 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footerLink {
+  display: inline-block;
+  color: #000000;
+  text-decoration: underline;
+  margin-left: 8px;
+  transition: all 0.3s ease;
+}
+
+.footerLink:hover {
+  transform: translateX(10px);
+  color: black;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+  letter-spacing: 1px;
+}
+
+.clockText {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

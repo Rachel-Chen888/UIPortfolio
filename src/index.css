@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+
+span {
+  display: block;
+}
+
+h3 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+h1 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+.mainContent {
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+
+.customNavbar {
+  background-color: rgba(137, 105, 159, 0.5); 
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  /* border-radius: 20px;  */
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+ 
+.customNavbar .nav-link {
+    color: #333;
+    margin: 0 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.customNavbar .nav-link:hover {
+    background-color: #dc8787;
+    border-color: #c97f7f;
+    color: white;
+}
+
+
+#about{  
+  scroll-margin-top: 100px;
+  margin: 100px 10px;
+  border-radius: 20px;
+  padding: 20px 100px;
+  display: flex; 
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: left;
+  font-family: "Arial", sans-serif;
+
+}
+
+.aboutText{
+  padding: 30px 70px;
+}
+.portfolioTitle {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 60px;
+}
+
+.Rachel {
+  color: #dc8787;
+  font-weight: 600; 
+  display: inline-block;
+}
+
+.Rachel:hover {
+  transform: translateX(10px); 
+  text-shadow: 0 0 10px rgba(222, 140, 140, 0.8);
+  letter-spacing: 1px;
+}
+
+.highlight {
+  color: #dc8787; 
+  font-weight: 600; 
+  display: inline-block;
+}
+
+.highlight:hover {
+  transform: translateY(-1px); 
+  text-shadow: 0 0 10px rgba(222, 140, 140, 0.8); 
+}
+
+
+#workflow {
+  scroll-margin-top: 100px;
+  margin: 100px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.workflowLink {
+  display: inline-block;
+  color: #dc8787;
+  text-decoration: none;
+  font-weight: 600; 
+  margin-left: 8px;
+  transition: all 0.3s ease;  
+}
+
+.workflowLink:hover {
+  transform: translateY(-1px); 
+  text-shadow: 0 0 10px rgba(222, 140, 140, 0.8); 
+}
+
+.carouselImage {
+  height: 400px;
+  object-fit: cover;
+}
+
+.workflowCarousel .carousel-caption {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 15px;
+  padding: 15px; 
+  color: black;
+  text-shadow: none;
+}
+
+.workflowCarousel .carousel-control-prev-icon,
+.workflowCarousel .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.workflowCarousel .carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
