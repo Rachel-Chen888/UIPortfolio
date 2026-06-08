@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 function ProjectCard({ image, title, description, link }) {
   return (
@@ -17,9 +18,8 @@ function ProjectCard({ image, title, description, link }) {
         <Card.Text>{description}</Card.Text>
 
         <Button
-          variant="primary"
-          href={link}
-          target="_blank"
+          as={Link}
+          to={link}
           className="projectButton"
         >
           View Project
