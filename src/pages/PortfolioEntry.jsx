@@ -167,7 +167,7 @@ function PortfolioEntry() {
 
         <section id="projects">
         
-          <h1>Projects</h1>  
+          <h1 className="workflowTitle">Projects</h1>  
 
           <div className="projectsContainer">
             

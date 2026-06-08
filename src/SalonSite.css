@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+.salon-heading {
+  font-family: "Inria Serif", serif !important;
+  font-style: normal;
+  font-size: 60px; 
+}
+
+.serviceNavbar {
+  background-color: rgb(103, 92, 86); 
+  backdrop-filter: blur(10px);
+  padding: 10px 10px; 
+  font-family: "Inria Serif", serif;
+  font-style: normal; 
+  font-size: 20px;
+  font-weight: 600;  
+}
+
+.salon-spacer { 
+  min-height: 300px;
+
+  background-image: url('./assets/salon/luxerySalon.jpg');
+  /* background: rgba(0, 0, 0, 0.01); */
+
+  /* filter: brightness(50%); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.salon-spacer::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: rgba(49, 49, 49, 0.6);
+}
+
+
+#about-salon{  
+  position: relative;
+  z-index: 1;
+  scroll-margin-top: 100px;
+  margin: 50px 10px;
+  border-radius: 20px;
+  padding: 20px 100px;
+  display: flex; 
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+
+}
+
+.bookingButton { 
+  background-color: #dc8787 !important; 
+  transition: all 0.3s ease;
+}
+
+
+.bookingLogo { 
+  width: 70px;
+  height: auto;
+
+  transform: scaleY(-1);
+  display: block;
+  margin: -30px auto 20px auto;
+}
+
+#booking {
+  scroll-margin-top: 100px;
+  margin: 50px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

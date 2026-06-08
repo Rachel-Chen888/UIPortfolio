@@ -1,30 +1,32 @@
 import { Container, Row, Col, Card, Button, Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import ServiceNavbar from '../components/ServiceNavbar';
+import '../SalonSite.css';
+import logo from '../assets/salon/TransparentHairHavenLogo.png';
 
 function SalonSite() {
     return (
         <div className="salon-page">
         
-        <Navbar expand="lg" className="salon-navbar">
-            <Container>
-            <Navbar.Brand>Hair Haven</Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
-                <Nav className="ms-auto">
-                <Nav.Link href="#services">Services</Nav.Link>
-                <Nav.Link href="#prices">Prices</Nav.Link>
-                <Nav.Link href="#booking">Booking</Nav.Link> 
-                <Nav.Link as={Link} to="/">Back to Portfolio</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <ServiceNavbar />
 
-        <section className="salon-hero">
+        <div className="salon-spacer">
+            <section id="about-salon"> 
+                <h1 className="salon-heading">Hair Haven</h1>
+                <p>Where Style Meets Perfection</p>
+            </section>
+        </div>
+
+        <section id="booking" className="salon-section">
             <Container>
-            <h1>Hair Haven</h1>
-            <p>Where Style Meets Perfection</p>
-            <Button href="#services">View Services</Button>
+                <img
+                    src={logo}
+                    alt="Hair Haven Logo"
+                    className="bookingLogo"
+                />
+                <h2>Book an Appointment With Us!</h2>
+                <br/>  
+                <Button href="#booking" className="bookingButton">Check Availability</Button> 
             </Container>
         </section>
 
@@ -63,13 +65,7 @@ function SalonSite() {
             </Container>
         </section>
 
-        <section id="booking" className="salon-section">
-            <Container>
-            <h2>Book an Appointment</h2>
-            <p>Choose your service and contact us to confirm availability.</p>
-            <Button>Submit Booking</Button>
-            </Container>
-        </section>
+        
         </div>
     )
 }
