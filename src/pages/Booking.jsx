@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { Link } from 'react-router-dom';
 
 import './Booking.css';
 import logo from '../assets/salon/TransparentHairHavenLogo.png';
@@ -36,9 +37,17 @@ function Booking() {
         </div>
 
         <section className="timeSlots">
-            <Button className="timeButton">12:30 pm</Button>
-            <Button className="timeButton">2:30 pm</Button>
-            <Button className="timeButton">4:30 pm</Button>
+            <Button as={Link} to="/complete" className="timeButton">
+                12:30 pm
+            </Button>
+
+            <Button as={Link} to="/complete" className="timeButton">
+                2:30 pm
+            </Button>
+
+            <Button as={Link} to="/complete" className="timeButton">
+                4:30 pm
+            </Button>
             
         </section>
         <ServiceFooter />

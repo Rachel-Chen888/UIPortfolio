@@ -18,6 +18,7 @@ import wireframe from '../assets/entry/wireframe.jpg'
 import colours from '../assets/entry/colours.jpg'
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer'
+import salon from '../assets/salon/HairHavenLogo.png'
 
 
 function PortfolioEntry() {
@@ -172,9 +173,9 @@ function PortfolioEntry() {
           <div className="projectsContainer">
             
             <ProjectCard
-              image={dentist}
+              image={salon}
               title="Service Site"
-              description="A service site for a dental clinic built using React and Bootstrap."
+              description="A service site for a hair salon built using React and Bootstrap."
               // link={"/comingsoon.html"}
               link="/salon" // react router service site 
             />

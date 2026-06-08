@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+.completePage {
+  min-height: 100vh;
+  font-family: "Inria Serif", serif !important;
+}
+
+.completeHero {
+  min-height: 650px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('../assets/salon/luxerySalon.jpg');
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 80px 20px;
+}
+
+.completeCard {
+  max-width: 700px !important;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+
+  text-align: center;
+
+  padding: 60px 40px;
+  border-radius: 25px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+.completeLogo {
+  width: 90px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.completeCard h1 {
+  color: rgb(103, 92, 86);
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.completeCard p {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.completeSubtext {
+  font-size: 18px !important;
+  color: #555 !important;
+}
+
+.completeButtons {
+  margin-top: 35px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.completeButton {
+  background-color: #A4946A !important;
+  border: none !important;
+  padding: 12px 28px !important;
+}
+
+.completeOutlineButton {
+  background-color: transparent !important;
+  border: 2px solid #A4946A !important;
+  color: #A4946A !important;
+  padding: 12px 28px !important;
+}
+
+.completeOutlineButton:hover {
+  background-color: #A4946A !important;
+  color: white !important;
+}

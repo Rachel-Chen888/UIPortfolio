@@ -48,21 +48,21 @@ function SalonSite() {
                     image={haircut}
                     title="Haircuts"
                     description="$20-50"
-                    link="/salon"
+                    link="/haircut"
                     />
 
                     <ServiceCard
                     image={dye}
                     title="Hair Dye"
                     description="$70-300"
-                    link="/salon"
+                    link="/dye"
                     />
 
                     <ServiceCard
                     image={perms}
                     title="Perms"
                     description="$120-250"
-                    link="/salon"
+                    link="/perm"
                     />
                 </div>
                 </Container>
