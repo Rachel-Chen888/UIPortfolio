@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+
+.bookingHero {
+  min-height: 350px;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url('../assets/salon/BWSalon.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.calendarBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stylistBox { 
+
+  color: white; 
+  font-family: "Inria Serif", serif !important;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.timeSlots {
+  min-height: 140px;
+  margin: -50px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 80px;
+  padding-bottom: 40px;
+}
+
+.timeButton {
+  background-color: #A4946A !important;
+  border: none !important;
+
+  color: white !important;
+  min-width: 140px; 
+}

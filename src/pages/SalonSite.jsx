@@ -31,7 +31,9 @@ function SalonSite() {
                     />
                     <h2>Book an Appointment With Us!</h2>
                     <br/>  
-                    <Button href="#booking" className="bookingButton">Check Availability</Button> 
+                    <Button className="bookingButton" as={Link} to="/booking">
+                        Check Availability
+                    </Button>
                 </Container>
             </section>
 
