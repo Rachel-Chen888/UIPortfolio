@@ -19,6 +19,7 @@ import colours from '../assets/entry/colours.jpg'
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer'
 import salon from '../assets/salon/HairHavenLogo.png'
+import gamecover from '../assets/game/gameCover.png'
 
 
 function PortfolioEntry() {
@@ -181,10 +182,10 @@ function PortfolioEntry() {
             />
 
             <ProjectCard
-              image={cat}
+              image={gamecover}
               title="Memory Game"
-              description="A card and cat memory game built using React and Bootstrap."
-              link="/coming-soon"
+              description="Navigate the Galaxy site built using React and Bootstrap."
+              link="https://navigatethegalaxy.netlify.app/"
             />
 
             <ProjectCard
