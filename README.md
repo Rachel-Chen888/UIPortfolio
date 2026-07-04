@@ -1,4 +1,4 @@
-# Service Site
+# Portfolio Site with Memory Game 
 
 Run "npm install" in terminal to get the node_modules with react-bootstrap
 Then run "npm run dev" 
