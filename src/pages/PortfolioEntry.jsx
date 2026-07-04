@@ -184,7 +184,7 @@ function PortfolioEntry() {
             <ProjectCard
               image={gamecover}
               title="Memory Game"
-              description="Navigate the Galaxy site built using React and Bootstrap."
+              description="A memory game about navigating the galaxy built using React and Bootstrap."
               link="https://navigatethegalaxy.netlify.app/"
             />
 
