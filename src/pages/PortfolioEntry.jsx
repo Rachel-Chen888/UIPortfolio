@@ -20,7 +20,7 @@ import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer'
 import salon from '../assets/salon/HairHavenLogo.png'
 import gamecover from '../assets/game/gameCover.png'
-
+import pokefindBg from '../assets/pokefind/pokefindBg.png'
 
 function PortfolioEntry() {
   
@@ -189,10 +189,10 @@ function PortfolioEntry() {
             />
 
             <ProjectCard
-              image={pokemon}
+              image={pokefindBg}
               title="E-Commerce Site"
-              description="An e-commerce platform that sells pokemon figures built using React and Bootstrap."
-              link="/coming-soon"
+              description="An e-commerce platform that sells pokemon merch built using React and Bootstrap."
+              link="https://pokefinds.vercel.app/"
             />
 
             <ProjectCard
