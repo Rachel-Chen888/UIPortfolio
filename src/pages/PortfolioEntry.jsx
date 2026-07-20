@@ -21,6 +21,7 @@ import Footer from '../components/Footer'
 import salon from '../assets/salon/HairHavenLogo.png'
 import gamecover from '../assets/game/gameCover.png'
 import pokefindBg from '../assets/pokefind/pokefindBg.png'
+import dashboardBg from '../assets/dashboard/canadianTrends.png'
 
 function PortfolioEntry() {
   
@@ -196,10 +197,10 @@ function PortfolioEntry() {
             />
 
             <ProjectCard
-              image={pokecard}
+              image={dashboardBg}
               title="Analytics Site"
-              description="An analytics dashboard for Pokemon transactions using React and Bootstrap."
-              link="/coming-soon"
+              description="An analytics dashboard for Canadian Grocery Prices using React and Bootstrap."
+              link="https://canadian-grocery-trends-git-main-rl9.vercel.app/"
             />
     
           </div>

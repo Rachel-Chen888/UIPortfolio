@@ -19,7 +19,7 @@ function CustomNavbar() {
 
                     <Nav className="align-items-center gap-5">
 
-                    <Navbar.Brand href="#about"> 
+                    {/* <Navbar.Brand href="#about"> 
                         <img
                             src={logo}
                             width="50"
@@ -27,10 +27,11 @@ function CustomNavbar() {
                             className="d-inline-block align-top"
                             alt="Rachel Luo Logo" 
                         />
-                    </Navbar.Brand>
+                    </Navbar.Brand> */}
 
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
+                        <Nav.Link href="#about">About Me</Nav.Link>
                         <Nav.Link href="#workflow">Workflow</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contact-service">Contact Me</Nav.Link> 

@@ -23,7 +23,7 @@ function ServiceFooter() {
                 </p>
             
 
-                <p>Location: 45 Mann Avenue, Ottawa, Canada, K1N 6Y7</p>
+                <p>Location: 123 Street Avenue, Ottawa, Canada, A1B 2C3</p>
 
 
                 <p className="copyright">
