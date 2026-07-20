@@ -31,7 +31,7 @@ function Footer() {
         <footer className="footer">
         
             <div className="footerContent">
-                <h3>Rachel Luo</h3>
+                <h3>Contact Me</h3>
 
                 <p>
                     Email:
