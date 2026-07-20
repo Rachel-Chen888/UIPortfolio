@@ -36,25 +36,114 @@ span {
 }
 
 
-#about{  
+#about {
   scroll-margin-top: 100px;
-  margin: 70px 10px;
-  border-radius: 20px;
-  padding: 20px 100px;
-  display: flex; 
-  flex-direction: column;
+  margin: 70px auto;
+  padding: 40px;
+  max-width: 1200px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+}
+
+.portfolioTitle {
+  width: fit-content;
+  margin: 0 auto 40px auto;
+  text-align: center;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 50px;
+}
+
+.aboutContent {
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 60px;
+  margin-left: 1.5rem;
+}
 
+.aboutImage {
+  width: min(100%, 450px);
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.aboutText {
+  flex: 1;
+  max-width: 600px;
+  padding: 0;
   text-align: left;
-  font-family: "Arial", sans-serif;
-
 }
 
-.aboutText{
-  padding: 30px 70px;
+.aboutText p {
+  line-height: 1.7;
+  font-size: 1.05rem;
 }
+
+.aboutText h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+@media (max-width: 850px) {
+  #about {
+    padding: 30px 20px;
+  }
+
+  .portfolioTitle {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .aboutImage {
+    width: min(100%, 400px);
+  }
+
+  .aboutText {
+    width: 100%;
+    max-width: 650px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #about {
+    margin: 40px auto;
+    padding: 20px 15px;
+  }
+
+  .portfolioTitle {
+    font-size: 34px;
+  }
+
+  .aboutImage {
+    width: 100%;
+  }
+
+  .aboutText p {
+    font-size: 1rem;
+  }
+}
+
+
 .portfolioTitle {
   text-align: left;
   color: #333;

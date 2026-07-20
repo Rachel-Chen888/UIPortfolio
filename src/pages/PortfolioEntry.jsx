@@ -33,33 +33,44 @@ function PortfolioEntry() {
       <main className="mainContent">
 
         <section id="about">
+          <h1 className="portfolioTitle">
+            Hi I'm <span className="Rachel">Rachel Luo</span>
+          </h1>
 
-          <h1 className="portfolioTitle">Hi I'm <span className="Rachel">Rachel Luo</span></h1>
-          
-          <div className="d-flex align-items-center gap-5">
+          <div className="aboutContent">
             <img
-              src={RachelPic}  
-              width="600"
-              height="400"
-              className="d-inline-block align-top"
-              alt="Rachel Luo Headshot" 
+              src={RachelPic}
+              className="aboutImage"
+              alt="Rachel Luo headshot"
             />
-          
-            <div className="aboutText"> 
-              <p>I am a third year <span className="highlight"> computer science</span> student at UOttawa with experience in <span className="highlight">data engineering </span> at the Department of National Defence. I am currently learning <span className="highlight">UI/UX Design</span> and applying it to various projects shown below.</p> 
-              
+
+            <div className="aboutText">
+              <p>
+                I am a third-year{" "}
+                <span className="highlight">computer science</span> student at
+                UOttawa with experience in{" "}
+                <span className="highlight">data engineering</span> at the
+                Department of National Defence. I am currently learning{" "}
+                <span className="highlight">UI/UX design</span> and applying it
+                to the projects shown below.
+              </p>
+
               <h3>Skills</h3>
-              <span>Languages: Java, Python, JavaScript, HTML/CSS</span>
-              
-              <span>Frameworks: React</span>
-              <span>Tools: Git, Fabric, Figma, Power BI</span> 
-              <br/>  
+
+              <div className="skillsList">
+                <span>Languages: Java, Python, JavaScript, HTML/CSS</span>
+                <span>Frameworks: React</span>
+                <span>Tools: Git, Fabric, Figma, Power BI</span>
+              </div>
+
               <h3>Interests</h3>
-              <p>I love designing websites and creating engaging user experiences.</p>
-            </div>  
-          
+
+              <p>
+                I love designing websites and creating engaging user
+                experiences.
+              </p>
+            </div>
           </div>
-        
         </section>
 
 
